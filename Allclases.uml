@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1643.8178004607128" y="2077.0">GUI.PatientWriteToDoctor</node>
+    <node x="288.53370955162177" y="3026.0">GUI.RegisterFormPatient</node>
+    <node x="2048.1462095516217" y="722.0">Classes.Drug</node>
+    <node x="1432.1049242424242" y="1253.0">Classes.Visit</node>
+    <node x="1679.8658824880888" y="0.0">jdbmysql.Driver</node>
+    <node x="675.9857057204117" y="766.0">Classes.Doctor</node>
+    <node x="2733.776742635855" y="1471.0">Classes.DoctorClinic</node>
+    <node x="3280.776742635855" y="843.0">GUI.Laboratorie</node>
+    <node x="1061.8178004607128" y="2077.0">GUI.DoctorLocalAnswer</node>
+    <node x="2494.134632488089" y="167.0">Classes.Patient</node>
+    <node x="474.5625" y="2429.0">GUI.DoctorMain</node>
+    <node x="1420.5553004607127" y="1460.0">Classes.VisitLocal</node>
+    <node x="2787.529353944473" y="2099.0">GUI.PatientUsualProcedures</node>
+    <node x="405.5" y="2110.0">GUI.DoctorSchedule</node>
+    <node x="2896.776742635855" y="1493.0">GUI.prescribeDrug</node>
+    <node x="2557.042042884955" y="2418.0">GUI.PatientMain</node>
+    <node x="1947.8365504607127" y="2077.0">GUI.PatientAppoitmentWithDoctor</node>
+    <node x="1953.3937499999997" y="1493.0">GUI.DoctorDrugPrescribtion</node>
+    <node x="1352.8178004607128" y="2066.0">GUI.DoctorOnlineAnswers</node>
+    <node x="191.53370955162177" y="2791.0">GUI.Login</node>
+    <node x="1203.5678004607128" y="3413.0">JUNIT</node>
+    <node x="1024.5553004607127" y="1438.0">Classes.VisitOnline</node>
+    <node x="2357.2420428849555" y="2055.0">GUI.patientPersonal</node>
+    <node x="68.0" y="2330.0">GUI.RegisterFormDoctor</node>
+    <node x="2055.3937499999997" y="1231.0">GUI.AllDrugs</node>
+    <node x="21.5" y="1253.0">Classes.AppoitmentSystemDoctors</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GUI.DoctorOnlineAnswers" target="Classes.VisitOnline">
+      <point x="-60.22222222222217" y="-81.5" />
+      <point x="1428.0955782384906" y="1795.0" />
+      <point x="1062.1553004607126" y="1795.0" />
+      <point x="-150.4000000000001" y="103.5" />
+    </edge>
+    <edge source="GUI.DoctorLocalAnswer" target="GUI.DoctorDrugPrescribtion">
+      <point x="84.6875" y="-70.5" />
+      <point x="1282.0053004607128" y="1925.0" />
+      <point x="1980.2687499999997" y="1925.0" />
+      <point x="-80.625" y="48.5" />
+    </edge>
+    <edge source="GUI.Login" target="GUI.DoctorMain">
+      <point x="49.666666666666515" y="-92.5" />
+      <point x="464.7003762182883" y="2741.0" />
+      <point x="526.8125" y="2741.0" />
+      <point x="-52.25" y="81.5" />
+    </edge>
+    <edge source="GUI.DoctorOnlineAnswers" target="GUI.DoctorDrugPrescribtion">
+      <point x="120.44444444444434" y="-81.5" />
+      <point x="1608.762244905157" y="1955.0" />
+      <point x="2141.5187499999997" y="1955.0" />
+      <point x="80.625" y="48.5" />
+    </edge>
+    <edge source="GUI.PatientAppoitmentWithDoctor" target="Classes.Doctor">
+      <point x="-94.79999999999995" y="-70.5" />
+      <point x="1971.536550460713" y="1725.0" />
+      <point x="1006.6916640970762" y="1725.0" />
+      <point x="1006.6916640970762" y="1151.0" />
+      <point x="782.7584329931387" y="1151.0" />
+      <point x="25.772727272727025" y="125.5" />
+    </edge>
+    <edge source="Classes.Visit" target="jdbmysql.Driver">
+      <point x="26.375" y="-26.5" />
+      <point x="1563.9799242424242" y="1201.0" />
+      <point x="1703.9458333333332" y="1201.0" />
+      <point x="1703.9458333333332" y="147.0" />
+      <point x="1787.7825491547553" y="147.0" />
+      <point x="15.416666666666515" y="48.5" />
+    </edge>
+    <edge source="GUI.PatientMain" target="GUI.Laboratorie">
+      <point x="60.95833333333337" y="-92.5" />
+      <point x="2722.5003762182887" y="2290.0" />
+      <point x="3383.0829253730444" y="2290.0" />
+      <point x="3383.0829253730444" y="1211.0" />
+      <point x="3442.026742635855" y="1211.0" />
+      <point x="53.75" y="48.5" />
+    </edge>
+    <edge source="Classes.Visit" target="Classes.Doctor">
+      <point x="-79.125" y="-26.5" />
+      <point x="1458.4799242424242" y="1091.0" />
+      <point x="826.9402511749572" y="1091.0" />
+      <point x="69.9545454545455" y="125.5" />
+    </edge>
+    <edge source="GUI.DoctorOnlineAnswers" target="Classes.Patient">
+      <point x="30.111111111111313" y="-81.5" />
+      <point x="1518.428911571824" y="1905.0" />
+      <point x="1929.5854166666663" y="1905.0" />
+      <point x="1929.5854166666663" y="662.0" />
+      <point x="2572.384632488089" y="662.0" />
+      <point x="-78.25" y="202.5" />
+    </edge>
+    <edge source="GUI.PatientWriteToDoctor" target="Classes.Patient">
+      <point x="58.5" y="-70.5" />
+      <point x="1819.3178004607128" y="1965.0" />
+      <point x="2226.8937499999997" y="1965.0" />
+      <point x="2226.8937499999997" y="1358.0" />
+      <point x="2787.2420428849555" y="1358.0" />
+      <point x="2787.2420428849555" y="702.0" />
+      <point x="2643.5209961244527" y="702.0" />
+      <point x="-7.113636363636488" y="202.5" />
+    </edge>
+    <edge source="GUI.PatientWriteToDoctor" target="Classes.Doctor">
+      <point x="-58.5" y="-70.5" />
+      <point x="1702.3178004607128" y="1755.0" />
+      <point x="978.4651223427408" y="1755.0" />
+      <point x="978.4651223427408" y="1161.0" />
+      <point x="775.3947966295027" y="1161.0" />
+      <point x="18.40909090909099" y="125.5" />
+    </edge>
+    <edge source="GUI.RegisterFormPatient" target="GUI.Login">
+      <point x="-21.083333333333485" y="-158.5" />
+      <point x="393.9503762182883" y="3006.0" />
+      <point x="359.15870955162177" y="3006.0" />
+      <point x="-55.875" y="92.5" />
+    </edge>
+    <edge source="GUI.PatientUsualProcedures" target="Classes.Patient">
+      <point x="61.42857142857133" y="-48.5" />
+      <point x="2956.4579253730444" y="2025.0" />
+      <point x="3270.276742635855" y="2025.0" />
+      <point x="3270.276742635855" y="642.0" />
+      <point x="2728.884632488089" y="642.0" />
+      <point x="78.25" y="202.5" />
+    </edge>
+    <edge source="GUI.DoctorMain" target="GUI.DoctorSchedule">
+      <point x="-39.1875" y="-81.5" />
+      <point x="539.875" y="2290.0" />
+      <point x="459.0" y="2290.0" />
+      <point x="-53.5" y="37.5" />
+    </edge>
+    <edge source="JUNIT" target="GUI.RegisterFormPatient">
+      <point x="-30.75" y="-14.5" />
+      <point x="1234.3178004607128" y="3373.0" />
+      <point x="351.78370955162177" y="3373.0" />
+      <point x="-63.25" y="158.5" />
+    </edge>
+    <edge source="GUI.Login" target="jdbmysql.Driver">
+      <point x="-198.66666666666652" y="-92.5" />
+      <point x="216.36704288495525" y="2751.0" />
+      <point x="0.0" y="2751.0" />
+      <point x="0.0" y="117.0" />
+      <point x="1695.2825491547555" y="117.0" />
+      <point x="-77.08333333333326" y="48.5" />
+    </edge>
+    <edge source="GUI.DoctorLocalAnswer" target="Classes.Patient">
+      <point x="50.8125" y="-70.5" />
+      <point x="1248.1303004607128" y="1895.0" />
+      <point x="1898.1462095516217" y="1895.0" />
+      <point x="1898.1462095516217" y="652.0" />
+      <point x="2558.1573597608162" y="652.0" />
+      <point x="-92.47727272727275" y="202.5" />
+    </edge>
+    <edge source="Classes.Visit" target="Classes.Patient">
+      <point x="79.125" y="-26.5" />
+      <point x="1616.7299242424242" y="1211.0" />
+      <point x="1714.9458333333332" y="1211.0" />
+      <point x="1714.9458333333332" y="612.0" />
+      <point x="2501.2482688517252" y="612.0" />
+      <point x="-149.38636363636374" y="202.5" />
+    </edge>
+    <edge source="GUI.PatientUsualProcedures" target="Classes.Drug">
+      <point x="-61.42857142857156" y="-48.5" />
+      <point x="2833.6007825159013" y="1945.0" />
+      <point x="2508.2420428849555" y="1945.0" />
+      <point x="2508.2420428849555" y="1181.0" />
+      <point x="2408.546209551622" y="1181.0" />
+      <point x="148.39999999999986" y="169.5" />
+    </edge>
+    <edge source="GUI.DoctorDrugPrescribtion" target="GUI.AllDrugs">
+      <point x="53.75" y="-48.5" />
+      <point x="2114.6437499999997" y="1418.0" />
+      <point x="2098.3937499999997" y="1418.0" />
+      <point x="-43.0" y="48.5" />
+    </edge>
+    <edge source="JUNIT" target="GUI.DoctorLocalAnswer">
+      <point x="6.150000000000091" y="-14.5" />
+      <point x="1270.5678004607128" y="2290.0" />
+      <point x="1298.9428004607128" y="2290.0" />
+      <point x="101.625" y="70.5" />
+    </edge>
+    <edge source="GUI.PatientAppoitmentWithDoctor" target="Classes.Patient">
+      <point x="94.79999999999995" y="-70.5" />
+      <point x="2161.136550460713" y="1995.0" />
+      <point x="2631.6017426358553" y="1995.0" />
+      <point x="2631.6017426358553" y="1388.0" />
+      <point x="2820.2420428849555" y="1388.0" />
+      <point x="2820.2420428849555" y="672.0" />
+      <point x="2686.2028143062707" y="672.0" />
+      <point x="35.568181818181756" y="202.5" />
+    </edge>
+    <edge source="JUNIT" target="GUI.RegisterFormDoctor">
+      <point x="-55.34999999999991" y="-14.5" />
+      <point x="1209.7178004607129" y="3393.0" />
+      <point x="170.03370955162177" y="3393.0" />
+      <point x="170.03370955162177" y="2771.0" />
+      <point x="92.16666666666652" y="2771.0" />
+      <point x="-120.83333333333348" y="180.5" />
+    </edge>
+    <edge source="GUI.patientPersonal" target="Classes.Patient">
+      <point x="61.75" y="-92.5" />
+      <point x="2542.4920428849555" y="2015.0" />
+      <point x="2723.276742635855" y="2015.0" />
+      <point x="2723.276742635855" y="1408.0" />
+      <point x="2863.1187499999996" y="1408.0" />
+      <point x="2863.1187499999996" y="652.0" />
+      <point x="2714.6573597608162" y="652.0" />
+      <point x="64.02272727272725" y="202.5" />
+    </edge>
+    <edge source="GUI.AllDrugs" target="Classes.Drug">
+      <point x="57.33333333333326" y="-48.5" />
+      <point x="2198.727083333333" y="1211.0" />
+      <point x="2238.946209551622" y="1211.0" />
+      <point x="-21.200000000000045" y="169.5" />
+    </edge>
+    <edge source="GUI.PatientAppoitmentWithDoctor" target="Classes.VisitLocal">
+      <point x="0.0" y="-70.5" />
+      <point x="2066.3365504607127" y="1705.0" />
+      <point x="1698.9928004607127" y="1705.0" />
+      <point x="75.9375" y="81.5" />
+    </edge>
+    <edge source="Classes.VisitOnline" target="Classes.Doctor">
+      <point x="-150.4000000000001" y="-103.5" />
+      <point x="1062.1553004607126" y="1368.0" />
+      <point x="1236.367800460713" y="1368.0" />
+      <point x="1236.367800460713" y="1131.0" />
+      <point x="797.4857057204117" y="1131.0" />
+      <point x="40.5" y="125.5" />
+    </edge>
+    <edge source="GUI.DoctorDrugPrescribtion" target="Classes.Patient">
+      <point x="-53.75" y="-48.5" />
+      <point x="2007.1437499999997" y="1418.0" />
+      <point x="2008.5437499999998" y="1418.0" />
+      <point x="2008.5437499999998" y="692.0" />
+      <point x="2615.066450669907" y="692.0" />
+      <point x="-35.568181818181756" y="202.5" />
+    </edge>
+    <edge source="Classes.VisitOnline" target="Classes.Patient">
+      <point x="150.4000000000001" y="-103.5" />
+      <point x="1362.9553004607128" y="1408.0" />
+      <point x="1865.1462095516217" y="1408.0" />
+      <point x="1865.1462095516217" y="622.0" />
+      <point x="2515.475541578998" y="622.0" />
+      <point x="-135.159090909091" y="202.5" />
+    </edge>
+    <edge source="GUI.patientPersonal" target="Classes.DoctorClinic">
+      <point x="86.45000000000005" y="-92.5" />
+      <point x="2567.1920428849553" y="2025.0" />
+      <point x="2769.276742635855" y="2025.0" />
+      <point x="-35.5" y="70.5" />
+    </edge>
+    <edge source="Classes.VisitLocal" target="Classes.Patient">
+      <point x="162.0" y="-81.5" />
+      <point x="1785.0553004607127" y="1418.0" />
+      <point x="1876.1462095516217" y="1418.0" />
+      <point x="1876.1462095516217" y="632.0" />
+      <point x="2529.7028143062707" y="632.0" />
+      <point x="-120.93181818181824" y="202.5" />
+    </edge>
+    <edge source="JUNIT" target="GUI.DoctorOnlineAnswers">
+      <point x="30.75" y="-14.5" />
+      <point x="1295.8178004607128" y="3373.0" />
+      <point x="1561.5678004607128" y="3373.0" />
+      <point x="1561.5678004607128" y="2310.0" />
+      <point x="1589.9428004607128" y="2310.0" />
+      <point x="101.625" y="81.5" />
+    </edge>
+    <edge source="GUI.PatientMain" target="GUI.PatientWriteToDoctor">
+      <point x="-78.375" y="-92.5" />
+      <point x="2583.167042884955" y="2300.0" />
+      <point x="1848.5678004607128" y="2300.0" />
+      <point x="87.75" y="70.5" />
+    </edge>
+    <edge source="Classes.Doctor" target="jdbmysql.Driver">
+      <point x="0.0" y="-125.5" />
+      <point x="756.9857057204117" y="127.0" />
+      <point x="1726.1158824880888" y="127.0" />
+      <point x="-46.25" y="48.5" />
+    </edge>
+    <edge source="GUI.RegisterFormDoctor" target="GUI.Login">
+      <point x="120.83333333333348" y="180.5" />
+      <point x="333.8333333333335" y="2711.0" />
+      <point x="415.03370955162177" y="2711.0" />
+      <point x="0.0" y="-92.5" />
+    </edge>
+    <edge source="GUI.patientPersonal" target="Classes.Doctor">
+      <point x="-111.14999999999986" y="-92.5" />
+      <point x="2369.5920428849554" y="1695.0" />
+      <point x="1014.0553004607127" y="1695.0" />
+      <point x="1014.0553004607127" y="1141.0" />
+      <point x="790.1220693567752" y="1141.0" />
+      <point x="33.13636363636351" y="125.5" />
+    </edge>
+    <edge source="GUI.PatientUsualProcedures" target="GUI.prescribeDrug">
+      <point x="0.0" y="-48.5" />
+      <point x="2895.029353944473" y="2005.0" />
+      <point x="2987.526742635855" y="2005.0" />
+      <point x="-90.75" y="48.5" />
+    </edge>
+    <edge source="Classes.DoctorClinic" target="jdbmysql.Driver">
+      <point x="0.0" y="-70.5" />
+      <point x="2804.776742635855" y="1418.0" />
+      <point x="3539.276742635855" y="1418.0" />
+      <point x="3539.276742635855" y="137.0" />
+      <point x="1849.4492158214223" y="137.0" />
+      <point x="77.08333333333348" y="48.5" />
+    </edge>
+    <edge source="Classes.VisitLocal" target="Classes.Doctor">
+      <point x="-162.0" y="-81.5" />
+      <point x="1461.0553004607127" y="1378.0" />
+      <point x="1410.6049242424242" y="1378.0" />
+      <point x="1410.6049242424242" y="1111.0" />
+      <point x="812.2129784476842" y="1111.0" />
+      <point x="55.22727272727252" y="125.5" />
+    </edge>
+    <edge source="Classes.VisitOnline" target="Classes.Visit">
+      <point x="75.19999999999982" y="-103.5" />
+      <point x="1287.7553004607125" y="1398.0" />
+      <point x="1511.2299242424242" y="1398.0" />
+      <point x="-26.375" y="26.5" />
+    </edge>
+    <edge source="Classes.VisitLocal" target="Classes.Visit">
+      <point x="0.0" y="-81.5" />
+      <point x="1623.0553004607127" y="1398.0" />
+      <point x="1563.9799242424242" y="1398.0" />
+      <point x="26.375" y="26.5" />
+    </edge>
+    <edge source="GUI.patientPersonal" target="Classes.VisitLocal">
+      <point x="-86.44999999999993" y="-92.5" />
+      <point x="2394.292042884955" y="1685.0" />
+      <point x="1749.6178004607127" y="1685.0" />
+      <point x="126.5625" y="81.5" />
+    </edge>
+    <edge source="GUI.PatientMain" target="Classes.Patient">
+      <point x="95.79166666666663" y="-92.5" />
+      <point x="2757.3337095516217" y="2310.0" />
+      <point x="3528.276742635855" y="2310.0" />
+      <point x="3528.276742635855" y="592.0" />
+      <point x="2800.0209961244527" y="592.0" />
+      <point x="149.38636363636363" y="202.5" />
+    </edge>
+    <edge source="GUI.DoctorOnlineAnswers" target="Classes.Doctor">
+      <point x="-90.33333333333348" y="-81.5" />
+      <point x="1397.9844671273793" y="1805.0" />
+      <point x="830.9587502116127" y="1805.0" />
+      <point x="830.9587502116127" y="1181.0" />
+      <point x="760.6675239022297" y="1181.0" />
+      <point x="3.6818181818180165" y="125.5" />
+    </edge>
+    <edge source="GUI.DoctorLocalAnswer" target="Classes.Doctor">
+      <point x="-84.6875" y="-70.5" />
+      <point x="1112.6303004607128" y="1825.0" />
+      <point x="812.5951138479762" y="1825.0" />
+      <point x="812.5951138479762" y="1201.0" />
+      <point x="745.9402511749572" y="1201.0" />
+      <point x="-11.045454545454504" y="125.5" />
+    </edge>
+    <edge source="GUI.Laboratorie" target="Classes.Patient">
+      <point x="53.75" y="-48.5" />
+      <point x="3442.026742635855" y="622.0" />
+      <point x="2757.3391779426343" y="622.0" />
+      <point x="106.70454545454527" y="202.5" />
+    </edge>
+    <edge source="GUI.DoctorMain" target="GUI.DoctorLocalAnswer">
+      <point x="39.1875" y="-81.5" />
+      <point x="618.25" y="2290.0" />
+      <point x="1163.4428004607128" y="2290.0" />
+      <point x="-33.875" y="70.5" />
+    </edge>
+    <edge source="GUI.Login" target="GUI.PatientMain">
+      <point x="198.66666666666652" y="-92.5" />
+      <point x="613.7003762182883" y="2771.0" />
+      <point x="2713.792042884955" y="2771.0" />
+      <point x="52.25" y="92.5" />
+    </edge>
+    <edge source="GUI.Login" target="GUI.RegisterFormPatient">
+      <point x="55.875" y="92.5" />
+      <point x="470.90870955162177" y="3006.0" />
+      <point x="436.11704288495525" y="3006.0" />
+      <point x="21.083333333333485" y="-158.5" />
+    </edge>
+    <edge source="GUI.PatientMain" target="GUI.PatientAppoitmentWithDoctor">
+      <point x="-43.54166666666674" y="-92.5" />
+      <point x="2618.0003762182887" y="2280.0" />
+      <point x="2125.5865504607127" y="2280.0" />
+      <point x="59.25" y="70.5" />
+    </edge>
+    <edge source="GUI.DoctorSchedule" target="Classes.VisitLocal">
+      <point x="26.75" y="-37.5" />
+      <point x="539.25" y="1845.0" />
+      <point x="1445.8678004607127" y="1845.0" />
+      <point x="-177.1875" y="81.5" />
+    </edge>
+    <edge source="GUI.PatientWriteToDoctor" target="Classes.VisitOnline">
+      <point x="-19.5" y="-70.5" />
+      <point x="1741.3178004607128" y="1745.0" />
+      <point x="1287.7553004607125" y="1745.0" />
+      <point x="75.19999999999982" y="103.5" />
+    </edge>
+    <edge source="GUI.DoctorMain" target="GUI.DoctorOnlineAnswers">
+      <point x="91.4375" y="-81.5" />
+      <point x="670.5" y="2310.0" />
+      <point x="1454.4428004607128" y="2310.0" />
+      <point x="-33.875" y="81.5" />
+    </edge>
+    <edge source="JUNIT" target="GUI.PatientWriteToDoctor">
+      <point x="55.34999999999991" y="-14.5" />
+      <point x="1320.4178004607127" y="3393.0" />
+      <point x="1707.8178004607128" y="3393.0" />
+      <point x="1707.8178004607128" y="2310.0" />
+      <point x="1731.5678004607128" y="2310.0" />
+      <point x="-29.25" y="70.5" />
+    </edge>
+    <edge source="GUI.DoctorMain" target="Classes.Doctor">
+      <point x="-91.4375" y="-81.5" />
+      <point x="487.625" y="2310.0" />
+      <point x="384.0" y="2310.0" />
+      <point x="384.0" y="1181.0" />
+      <point x="701.7584329931392" y="1181.0" />
+      <point x="-55.22727272727252" y="125.5" />
+    </edge>
+    <edge source="GUI.Login" target="GUI.RegisterFormDoctor">
+      <point x="-99.33333333333348" y="-92.5" />
+      <point x="315.7003762182883" y="2731.0" />
+      <point x="237.16666666666652" y="2731.0" />
+      <point x="24.166666666666515" y="180.5" />
+    </edge>
+    <edge source="Classes.Drug" target="Classes.Patient">
+      <point x="0.0" y="-169.5" />
+      <point x="2260.1462095516217" y="702.0" />
+      <point x="2629.2937233971797" y="702.0" />
+      <point x="-21.340909090909236" y="202.5" />
+    </edge>
+    <edge source="GUI.PatientMain" target="GUI.patientPersonal">
+      <point x="-26.125" y="-92.5" />
+      <point x="2635.417042884955" y="2270.0" />
+      <point x="2418.9920428849555" y="2270.0" />
+      <point x="-61.75" y="92.5" />
+    </edge>
+    <edge source="GUI.PatientMain" target="GUI.PatientUsualProcedures">
+      <point x="8.708333333333258" y="-92.5" />
+      <point x="2670.2503762182887" y="2260.0" />
+      <point x="2841.279353944473" y="2260.0" />
+      <point x="-53.75" y="48.5" />
+    </edge>
+    <edge source="GUI.RegisterFormPatient" target="Classes.Doctor">
+      <point x="105.41666666666652" y="-158.5" />
+      <point x="520.4503762182883" y="3006.0" />
+      <point x="730.0208333333331" y="3006.0" />
+      <point x="730.0208333333331" y="1211.0" />
+      <point x="731.2129784476842" y="1211.0" />
+      <point x="-25.77272727272748" y="125.5" />
+    </edge>
+    <edge source="GUI.DoctorLocalAnswer" target="Classes.VisitLocal">
+      <point x="-50.8125" y="-70.5" />
+      <point x="1146.5053004607128" y="1865.0" />
+      <point x="1547.1178004607127" y="1865.0" />
+      <point x="-75.9375" y="81.5" />
+    </edge>
+    <edge source="Classes.AppoitmentSystemDoctors" target="Classes.Doctor">
+      <point x="88.0" y="-26.5" />
+      <point x="285.5" y="1171.0" />
+      <point x="694.3947966295027" y="1171.0" />
+      <point x="-62.59090909090901" y="125.5" />
+    </edge>
+    <edge source="GUI.patientPersonal" target="Classes.Drug">
+      <point x="12.350000000000023" y="-92.5" />
+      <point x="2493.0920428849554" y="1965.0" />
+      <point x="2486.2420428849555" y="1965.0" />
+      <point x="2486.2420428849555" y="1201.0" />
+      <point x="2323.7462095516216" y="1201.0" />
+      <point x="63.59999999999991" y="169.5" />
+    </edge>
+    <edge source="Classes.Patient" target="jdbmysql.Driver">
+      <point x="0.0" y="-202.5" />
+      <point x="2650.634632488089" y="147.0" />
+      <point x="1818.6158824880888" y="147.0" />
+      <point x="46.25" y="48.5" />
+    </edge>
+    <edge source="GUI.DoctorSchedule" target="Classes.Doctor">
+      <point x="-26.75" y="-37.5" />
+      <point x="485.75" y="1211.0" />
+      <point x="723.8493420840482" y="1211.0" />
+      <point x="-33.13636363636351" y="125.5" />
+    </edge>
+    <edge source="GUI.RegisterFormDoctor" target="Classes.AppoitmentSystemDoctors">
+      <point x="72.5" y="-180.5" />
+      <point x="285.5" y="2310.0" />
+      <point x="267.21064415100636" y="2310.0" />
+      <point x="267.21064415100636" y="1418.0" />
+      <point x="285.5" y="1418.0" />
+      <point x="88.0" y="26.5" />
+    </edge>
+    <edge source="GUI.DoctorDrugPrescribtion" target="Classes.Drug">
+      <point x="17.916666666666742" y="-48.5" />
+      <point x="2078.8104166666662" y="1408.0" />
+      <point x="2044.8937499999997" y="1408.0" />
+      <point x="2044.8937499999997" y="1181.0" />
+      <point x="2111.7462095516216" y="1181.0" />
+      <point x="-148.4000000000001" y="169.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.35592143269786247" x="1772.0000000000005" y="1721.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

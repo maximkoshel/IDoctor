@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="1168.0">GUI.PatientWriteToDoctor</node>
+    <node x="1274.0" y="896.0">GUI.DoctorMain</node>
+    <node x="754.0" y="167.0">Classes.VisitLocal</node>
+    <node x="0.0" y="492.0">Classes.Drug</node>
+    <node x="397.0" y="1396.0">GUI.DoctorSchedule</node>
+    <node x="924.0" y="1168.0">GUI.PatientUsualProcedures</node>
+    <node x="1011.0" y="492.0">GUI.PatientMain</node>
+    <node x="492.0" y="896.0">GUI.PatientAppoitmentWithDoctor</node>
+    <node x="645.75" y="0.0">Classes.Visit</node>
+    <node x="733.0" y="1396.0">jdbmysql.Driver</node>
+    <node x="0.0" y="896.0">GUI.Login</node>
+    <node x="907.0" y="896.0">GUI.DoctorOnlineAnswers</node>
+    <node x="469.0" y="492.0">Classes.Doctor</node>
+    <node x="722.0" y="1168.0">Classes.DoctorClinic</node>
+    <node x="1302.0" y="1168.0">GUI.Laboratorie</node>
+    <node x="676.0" y="492.0">GUI.patientPersonal</node>
+    <node x="358.0" y="145.0">Classes.VisitOnline</node>
+    <node x="367.0" y="1168.0">GUI.DoctorLocalAnswer</node>
+    <node x="0.0" y="0.0">Classes.Patient</node>
+    <node x="0.0" y="1396.0">Classes.AppoitmentSystemDoctors</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Classes.VisitOnline" target="Classes.Visit">
+      <point x="0.0" y="-124.5" />
+      <point x="546.0" y="120.0" />
+      <point x="698.5" y="120.0" />
+      <point x="-52.75" y="47.5" />
+    </edge>
+    <edge source="Classes.VisitLocal" target="Classes.Visit">
+      <point x="0.0" y="-102.5" />
+      <point x="956.5" y="120.0" />
+      <point x="804.0" y="120.0" />
+      <point x="52.75" y="47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="2031.666666666666" y="966.4999999999991" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
